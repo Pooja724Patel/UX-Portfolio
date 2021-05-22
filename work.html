@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="./scripts/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('#btn1').click(function () {
+        $('#two2').toggle();
+      });
+    });
+    $(document).ready(function () {
+      $('#btn2').click(function () {
+        $('#three3').toggle();
+      });
+    });
+    $(document).ready(function () {
+      $('#btn3').click(function () {
+        $('#four4').toggle();
+      });
+    });
+  </script>
+  <title>Pooja Patel | Portfolio </title>
+
+</head>
+
+<body>
+  <div class="work-page">
+    <button id="btnScrollToTop">
+      <i class="material-icons">arrow_upward</i>
+    </button>
+    <!-- <button id="btnScrollToBottom">
+            <i class="material-icons">arrow_downward_alt</i>
+          </button> -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top " style="background-color: #fff; ">
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item ">
+            <a class="nav-link" href="./index.html">Hello <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Work</a>
+          </li>
+          <a class="navbar-brand" href="./index.html" style="position: fixed; top: 0px; right: 45.5%;">
+            <img src="./static/Portfolio_logo.svg" width="50" height="50" alt="" loading="lazy">
+          </a>
+          <li class="nav-item " style="margin-left: 35em;">
+            <a href="mailto:pooja724patel@gmail.com"><img src="./static/Mail Icon.png" alt=""
+                style="padding-top:10px;width: 35px;height: auto;"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/pooja-patel-9005581a5/"><img
+                src="./static/Linkedin icon.png" alt="" style="width: 32px;height: auto;"></a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+    <div class="main-section">
+      <video autoplay muted loop>
+        <source src="./static/production ID_4112431.mp4" type="video/mp4">
+      </video>
+      <div class="container-fluid" id="one">
+        <h1
+          style="display: flex; justify-content: center;padding-top: 2.5em;font-family: GothamMedium;font-size: 80px;color: #fff;">
+          My Projects</h1> <br><br>
+        <hr style="margin-left: 20%;margin-right: 20%;background: #fff;">
+        <div class="row">
+          <p id="work-smallheading" style="color: #fff;">Design is not what you make others see,<br> but what you make
+            them
+            experience.
+          </p>
+        </div>
+      </div>
+      <!-- second section starts  -->
+      <div class="container-fluid " id="two">
+        <div class="row">
+          <div class="col-md-5 left-side">
+            <h1 class="heading"> Realtime Transcript<br>Generator App</h1>
+
+            <button class="btn btn-warning btn-sm" id="btn1" style="font-size: 25px;">More<img
+                src="./static/Mask Group 5.png" style="height: 40px; width: 60px;" alt=""> </button>
+          </div>
+          <div class="col-md-7 right-side">
+            <img src="./static/Voice_1.png" class="image2" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid " id="two2" style="display: none;">
+        <div class="row">
+          <div class="col-md-12">
+            <p>A clean and modern dark mode design interface.</p>
+            <p>Shades of ultramarine fused with transparent dialog
+              boxes accentuate the uber-cool design language.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 " style="padding-top: 40px; padding-left: 120px;">
+            <img src="./static/Voice_2.png" class="onclickimage" style="height: 400px;width: 500px;" alt="">
+          </div>
+          <div class="col-md-6">
+            <img src="./static/Voice_3.png" class="onclickimage" style="height: 500px;width: 550px;margin-right: -20px;"
+              alt="">
+          </div>
+        </div>
+      </div>
+      <!-- second section ends -->
+
+      <!-- thrid section starts -->
+      <div class="container-fluid mt-1" id="three">
+        <div class="row">
+
+          <div class="col-md-7 right-side">
+            <img src="./static/Travel_1.png" style="width: 600px;height: 500px;padding-left: 150px;" class="image"
+              alt="">
+          </div>
+          <div class="col-md-5 left-side" style="margin-left: -30px;">
+            <h1 class="heading"> Community-Driven <br> Travel App</h1>
+
+            <button class="btn btn-warning btn-sm" id="btn2" style="font-size: 25px;">More<img
+                src="./static/Mask Group 5.png" style="height: 40px; width: 60px;" alt=""> </button>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid " id="three3" style="display: none;">
+        <div class="row">
+          <div class="col-md-12">
+            <p>A vibrant and bewitching home screen followed
+              by a clean card-based layout for effortless
+              accessibility.
+            </p>
+            <p>Mesmerizing images usher every itinerary,
+              captivating the user's attention.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6" style="padding-left: 120px;">
+            <img src="./static/Travel_2.png" style="height: 500px;width: 550px;" alt="">
+          </div>
+          <div class="col-md-6 " style="padding-top: 30px;padding-left: 90px;">
+            <img src="./static/Travel_3.png" style="height: 400px;width: 500px;" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- third section ends  -->
+
+      <!-- fourth section starts  -->
+
+      <div class="container-fluid mt-1" class="target" id="four">
+        <div class="row">
+          <div class="col-md-5 left-side" style="padding-left: 70px;padding-top: 200px;">
+            <h1 class="heading">Intel Logo Redesigned</h1>
+            <button class="btn btn-warning btn-sm" id="btn3" style="font-size: 25px;">More<img
+                src="./static/Mask Group 5.png" style="height: 40px; width: 60px;" alt=""> </button>
+          </div>
+          <div class="col-md-7 right-side">
+            <img src="./static/Logo.png" style="width: 700px;height: auto;padding-left: 110px;padding-top: 100px;"
+              alt="">
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid " id="four4" style="display: none;">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Gave the Intel Logo a much-needed design
+              refresh. The Intel logo has a visually distinctive
+              logo following the design philosophy of recognition
+              over recall.
+
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- fourth section ends  -->
+
+    </div>
+    <div class="footer-section mt-1">
+      <h1 style="margin-bottom: 10px;">Aesthetic <span>| Engaging |</span> Intuitive</h1>
+      <hr style="background-color: #fff;margin-left: 48%;margin-right: 48%;margin-top: 3%;">
+      <h5 style="color: #fff;text-align: center;margin-top: 2%;"><img src="./static/copyright-white-18dp.svg"
+          style="height:28px;width: 28px;margin-top: -3px;" alt=""> Pooja Patel</h5>
+    </div>
+  </div>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script src="./scripts/script.js"></script>
+
+  <!-- <script type="module">
+      import jump from '.node_modeules/jump.js/dist/jump.module.js'
+
+      var button = document.getElementById("btnScrollToBottom");
+      button.addEventListener('click', () => {
+        jump('.target');
+      })
+    </script> -->
+</body>
+
+</html>
